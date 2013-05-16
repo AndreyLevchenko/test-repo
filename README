@@ -5,7 +5,7 @@ one more change
 
 commit to master to test updating of repo
 
-testing http access
+testing https access
 
 testing sn.setConfig("StrictHostKeyChecking", "no");
 
