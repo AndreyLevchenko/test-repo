@@ -10,12 +10,12 @@
     <version>1.0-SNAPSHOT</version>
 
     <organization>
-        <name>Example Company</name>
-        <url>http://www.example.com/</url>
+        <name>Example1 Company</name>
+        <url>http://www.example1.com/</url>
     </organization>
 
-    <name>testissuecreator</name>
-    <description>This is the com.topshelfsolution:testissuecreator plugin for Atlassian JIRA.</description>
+    <name>testissuecreator5</name>
+    <description>This is the com.topshelfsolution:testissuecreator5 plugin for Atlassian JIRA.</description>
     <packaging>atlassian-plugin</packaging>
 
     <dependencies>
