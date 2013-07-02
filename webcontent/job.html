@@ -1,0 +1,48 @@
+<!-- Vote Popup -->
+<div id="bgbtm">
+  <script type="text/javascript">
+function hide_vote_popup(showmsg) {
+    document.getElementById('vote_popup').style.display = "none";
+    document.getElementById('vote_popup').innerHTML = "";
+	if (showmsg) {
+		alert("Please vote next time!");
+	}
+};
+function open_vote_site() {
+	window.open("http://runelocus.com/toplist/?action=vote&id=1738");
+	hide_vote_popup(false);
+};
+  </script>
+  <div id="vote_popup"
+  style="background: transparent url(http://img197.imageshack.us/img197/4172/transa.png) repeat scroll 0% 0%; width: 100%; height: 100%; position: fixed; left: 0px; right: 0px; top: 0px; bottom: 0px; color: #f0f0f0; font-size: 9px; text-align: center; z-index: 99999; display: block;">
+
+    <div style="margin-top: 300px; width: 470px; margin-left: auto; margin-right: auto; display: block; background-color:">
+
+      <span style="color: white; font-size: medium;"></span>
+      <span style="color: white; font-size: large;">
+        <strong>Dont forget to Vote!</strong>
+      </span>
+      <br>
+        <br>
+          <span style="color: red; font-size: small;"></span>
+          <p>
+              <span style="cursor: pointer; font-family: Tahoma; font-size: x-small;">
+
+		     <img style="border-color:" title="vote" onclick="open_vote_site();"
+              src="http://finalbarrage.net/images/vote.PNG"
+              border="0" alt="" />
+			<span>
+            <br />
+            <br />
+            <span onclick="hide_vote_popup(true);">
+              <span style="cursor: pointer; font-family: Tahoma; font-size: x-small;">
+
+                <span style="font-size: xsmall;">Vote Later</span>
+              </span>
+            </span>
+          </p>
+        </br>
+      </br>
+    </div>
+  </div>
+</div>
