@@ -1,0 +1,3 @@
+[submodule "icann-test"]
+	path = icann-test
+	url = https://github.com/AndreyLevchenko/icann-test.git
