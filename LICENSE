@@ -7,6 +7,7 @@ Atlassian releases most of its modules under a BSD license: http://www.opensourc
 vv
 vvv
 bbbb
+add line for TST-2 GIT-348
 eeee
-ggg
+ggg change line for TST-2 GIT-348 then will be removed
 
