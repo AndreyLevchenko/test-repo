@@ -4,9 +4,9 @@ This file is simply a reminder.
 For a template license you can have a look at: http://www.opensource.org/licenses/
 
 Atlassian releases most of its modules under a BSD license: http://www.opensource.org/licenses/bsd-license.php
-vv
 vvv
-bbbb
+bb
+add line for TST-6 GIT-348
 eeee
-ggg
+ggg change line for TST-6 GIT-348 then will be removed
 
