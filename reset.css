@@ -41,7 +41,7 @@ sub { vertical-align: baseline; }
 sub_ { vertical-align: baseline; }
 
 /* line 1, ../sass/reset.scss */
-legend { color: #000; }
+legend { color: #001; }
 
 /* line 1, ../sass/reset.scss */
 input, button, textarea, select, optgroup, option { font-family: inherit; font-size: inherit; font-style: inherit; font-weight: inherit; }
