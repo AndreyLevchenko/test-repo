@@ -1,5 +1,5 @@
 /* line 2, ../sass/scrollbars.scss */
-.iScroll ::-webkit-scrollbar, .iScroll::-webkit-scrollbar { width: 6px; height: 9px; }
+.iScroll ::-webkit-scrollbar, .iScroll::-webkit-scrollbar { width: 9px; height: 9px; }
 
 /* line 9, ../sass/scrollbars.scss */
 .iScroll ::-webkit-scrollbar-button:start:decrement, .iScroll ::-webkit-scrollbar-button:end:increment, .iScroll::-webkit-scrollbar-button:start:decrement, .iScroll::-webkit-scrollbar-button:end:increment { display: block; height: 0; background-color: transparent; }
