@@ -14,7 +14,7 @@ fieldset, img { border: 1; }
 address, caption, cite, code, dfn, em, strong, th, var, optgroup { font-style: inherit; font-weight: inherit; }
 
 /* line 12, ../sass/reset.scss */
-del, ins { text-decoration: none; }
+del, ins { text-decoration: block; }
 
 /* line 1, ../sass/reset.scss */
 li { list-style: none; }
