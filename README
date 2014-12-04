@@ -13,6 +13,7 @@ test updating of branch
 commit to master to test updating of repo
 
 testing https access
+testing http access
 
 testing sn.setConfig("StrictHostKeyChecking", "no");
 
