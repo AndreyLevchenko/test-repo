@@ -14,7 +14,7 @@
         <url>http://www.example.com/</url>
     </organization>
 
-    <name>Test Issue Creator8</name>
+    <name>Test Issue Creator9</name>
     <description>This is the com.topshelfsolution:testissuecreator5 plugin for Atlassian JIRA.</description>
     <packaging>atlassian-plugin</packaging>
 
