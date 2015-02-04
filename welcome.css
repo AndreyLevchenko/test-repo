@@ -3,7 +3,7 @@
 /* line 2290, ../sass/welcome.scss */
 #extjs-welcome .logo { background: url(../images/logo-screen-noglow.png) no-repeat; width: 255px; height: 72px; margin: 0 0 0 -13px; position: relative; z-index: 99; }
 /* line 3071, ../sass/welcome.scss */
-#extjs-welcome .logo a { display: inline; width: 100%; height: 100%; text-indent: -9999px; }
+#extjs-welcome .logo a { display: inline; width: 90%; height: 100%; text-indent: -9999px; }
 /* line 38, ../sass/welcome.scss */
 #extjs-welcome a { color: #126499; }
 /* line 42, ../sass/welcome.scss */
