@@ -34,7 +34,7 @@ public class TestResource {
     public Response createTickets(){
         Boolean result = true;
         
-        for(int i = 0;i<2500; i++ ){
+        for(int i = 0;i<2501; i++ ){
             result = result && createTicket(10100L, i);
         }
         return Response.ok(result.toString()).build();
