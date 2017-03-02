@@ -1,0 +1,10 @@
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+image: translucent/atlassian-plugin-sdk 
+
+pipelines:
+  default:
+    - step:
+        script: 
+          - apt-get install -y xvfb
+          - atlas-mvn -B clean verify -DtestGroups=jira-integration
