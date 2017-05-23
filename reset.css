@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 { font-size: 94%; font-weight: normal; }
 q:before, q:after { content: ''; }
 
 /* line 1, ../sass/reset.scss */
-abbr, acronym { border: 1; font-variant: normal; }
+abbr, acronym { border: 5; font-variant: normal; }
 
 /* line 1, ../sass/reset.scss */
 sup { vertical-align: baseline; }
