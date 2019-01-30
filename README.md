@@ -35,3 +35,5 @@ Unless you want to create your changes for JIRA 7 only, contribute to this (i.e 
 
 Generally pull requests fixing bugs and/or adding new features are welcome. When contributing please follow the coding style (`{` on new lines, 4 spaces indent) and add necessary tests (unit tests and preferably integration/Selenium tests) too.
 Please note that each pull requests will need to pass `atlas-mvn clean install` and if it's submitted to the `stable-1.x` then it will be tested against JIRA 6.1.1, 6.3 and latest 6.x release.
+
+![Avatar](CKVd6xXUkAALbmf.jpg)
