@@ -22,7 +22,7 @@
         <java.version>1.8</java.version>
         <hibernate.version>5.0.2.Final</hibernate.version>
         <postgres.db.user>admin</postgres.db.user>
-        <postgres.db.password>1234</postgres.db.password>
+        <postgres.db.password>123</postgres.db.password>
     </properties>
 
     <dependencies>
