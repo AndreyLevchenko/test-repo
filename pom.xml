@@ -21,6 +21,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
         <hibernate.version>5.0.2.Final</hibernate.version>
+        <postgres.db.user>admin</postgres.db.user>
+        <postgres.db.password>admin</postgres.db.password>
     </properties>
 
     <dependencies>
