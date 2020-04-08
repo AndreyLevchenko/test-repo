@@ -1,4 +1,4 @@
-```XXX
+```JSON
 {
     "key": "mohamicorp-render-markdownn",
     "name": "Markdown Extensions for Confluence",
