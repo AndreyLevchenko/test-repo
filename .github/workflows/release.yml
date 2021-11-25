@@ -1,0 +1,14 @@
+name: Release
+on:
+  push:
+    tags:
+      - "*"
+  workflow_dispatch:
+jobs:
+  my-test:
+    name: My tests
+    runs-on: ubuntu-18.04
+    steps:
+      - name: echo
+        run: echo 'some text'
+
