@@ -1,0 +1,14 @@
+name: PullRequest title linter
+on:
+  pull_request:
+    types: [edited, opened]
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Go pull request message linter
+        uses: masahiro331/go-commitlinter@0.1.2
+        env:
+          TITLE: ${{ github.event.pull_request.title }}
