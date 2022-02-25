@@ -9,10 +9,17 @@ env:
 jobs:
   greeting_job:
     runs-on: ubuntu-latest
-    env:
-      Greeting: Hello
     steps:
-      - name: "Say Hello Mona it's Monday"
-        run: echo "$Greeting $First_Name. Today is $DAY_OF_WEEK!"
-        env:
-          First_Name: Mona
+      - name: "GITHUB_REF"
+        run: echo "GITHUB_REF is: $GITHUB_REF"
+      - name: "GITHUB_SHA"
+        run: echo "GITHUB_SHA is: $GITHUB_SHA"
+      - name: "GITHUB_JOB"
+        run: echo "GITHUB_JOB is: $GITHUB_JOB"
+      - name: "GITHUB_JOB"
+        run: echo "GITHUB_JOB is: $GITHUB_JOB"
+      - name: "GITHUB_RUN_ID"
+        run: echo "GITHUB_RUN_ID is: $GITHUB_RUN_ID"
+        
+        
+
