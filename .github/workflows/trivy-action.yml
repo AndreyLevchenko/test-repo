@@ -18,6 +18,7 @@ jobs:
         ignore-unfixed: true
         format: 'sarif'
         output: 'trivy-results.sarif'
+        limit-severities-for-sarif: true
         
     - name: Display SARIF
       run: |
