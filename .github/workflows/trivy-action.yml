@@ -17,7 +17,7 @@ jobs:
         format: 'sarif'
         output: 'trivy-results.sarif'
         
-    - name: Build the image
+    - name: Display SARIF
       run: |
         SARIF=$(cat trivy-results.sarif)
         echo "$SARIF"
